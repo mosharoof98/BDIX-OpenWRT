@@ -18,7 +18,7 @@ iptable_start() {
     iptables -t nat -A BDIX -d facebook.com -j RETURN
     iptables -t nat -A BDIX -d messenger.com -j RETURN
     iptables -t nat -A BDIX -d wise.com -j RETURN
-    iptables -t nat -A BDIX -d priyo.com -j RETURN
+    iptables -t nat -A BDIX -d tiktok.com -j RETURN
     iptables -t nat -A BDIX -d upwork.com -j RETURN
     iptables -t nat -A BDIX -d 172.16.50.7 -j RETURN
     iptables -t nat -A BDIX -d aibl.com.bd -j RETURN
